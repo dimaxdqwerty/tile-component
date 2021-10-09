@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Content-Package-Id: ACLs:users:1.0.0
+Content-Package-Description: ACL Package initially defined by a ACS AEM 
+ Commons - ACL Packager configuration.
+Content-Package-Roots: /home/users/system/service-user/zpIfA_AfyfYrCkCi1
+ fF5,/content/rep:policy
+Content-Package-Type: content
+

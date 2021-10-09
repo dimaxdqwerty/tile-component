@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:conf="/conf/aem2021_dubrova"
+        cq:lastModified="{Date}2021-08-21T10:50:30.712+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/aem2021_dubrova/templates/childPage"
+        jcr:description="C# (pronounced &quot;See Sharp&quot;) is a modern, object-oriented, and type-safe programming language. C# enables developers to build many types of secure and robust applications that run in the .NET ecosystem. C# has its roots in the C family of languages and will be immediately familiar to C, C++, Java, and JavaScript programmers."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="C#"
+        sling:resourceType="/apps/aem2021_dubrova/components/component-page/childPage"
+        pageTitle="C#">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+</jcr:root>

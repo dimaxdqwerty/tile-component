@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:vlt="http://www.day.com/jcr/vault/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:created="{Date}2021-08-28T10:48:12.973+03:00"
+    jcr:createdBy="admin"
+    jcr:description="ACL Package initially defined by a ACS AEM Commons - ACL Packager configuration."
+    jcr:lastModified="{Date}2021-08-28T10:48:12.973+03:00"
+    jcr:lastModifiedBy="admin"
+    jcr:primaryType="vlt:PackageDefinition"
+    acHandling="Overwrite"
+    buildCount="1"
+    group="ACLs"
+    lastUnwrapped="{Date}2021-08-28T10:48:12.973+03:00"
+    lastUnwrappedBy="admin"
+    lastWrapped="{Date}2021-08-28T10:48:12.973+03:00"
+    lastWrappedBy="admin"
+    name="users"
+    version="1.0.0">
+    <filter jcr:primaryType="nt:unstructured">
+        <f0
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/content/rep:policy"
+            rules="[]"/>
+        <f1
+            jcr:primaryType="nt:unstructured"
+            mode="replace"
+            root="/home/users/system/service-user/zpIfA_AfyfYrCkCi1fF5"
+            rules="[exclude:/home/users/system/service-user/zpIfA_AfyfYrCkCi1fF5/\\.tokens]"/>
+    </filter>
+    <thumbnail.png/>
+</jcr:root>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:lastModified="{Date}2021-08-27T12:21:57.847+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/aem2021_dubrova/templates/rootPage"
+        jcr:description="A programming language is a formal language comprising a set of strings that produce various kinds of machine code output. Programming languages are one kind of computer language, and are used in computer programming to implement algorithms."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Programming Languages"
+        sling:resourceType="/apps/aem2021_dubrova/components/component-page/rootPage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="wcm/foundation/components/parsys">
+            <page_display
+                jcr:created="{Date}2021-08-20T09:53:21.676+03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-21T15:31:00.017+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aem2021_dubrova/components/page-display"
+                behavior="dynamic"
+                dynamicPath="/content/aem2021_dubrova/programming-languages"
+                headline="Dynamic Content"
+                number="9"
+                staticPath="[/content/aem2021_dubrova/programming-languages/java,/content/aem2021_dubrova/programming-languages/c-,/content/aem2021_dubrova/programming-languages/c--,/content/aem2021_dubrova/programming-languages/javascript,/content/aem2021_dubrova/programming-languages/python]">
+                <cq:annotations jcr:primaryType="nt:unstructured">
+                    <_x0031__1629468829827
+                        jcr:created="{Date}2021-08-20T17:13:49.838+03:00"
+                        jcr:createdBy="admin"
+                        jcr:lastModified="{Date}2021-08-20T17:14:17.854+03:00"
+                        jcr:lastModifiedBy="admin"
+                        jcr:primaryType="nt:unstructured"
+                        color="orange"
+                        x="{Long}1522"
+                        y="{Long}-46"/>
+                </cq:annotations>
+            </page_display>
+            <page_display_686887041
+                jcr:created="{Date}2021-08-21T10:42:52.043+03:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2021-08-21T15:30:56.813+03:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="aem2021_dubrova/components/page-display"
+                behavior="static"
+                headline="Static Content"
+                number="8"
+                staticPath="[/content/aem2021_dubrova/programming-languages/java,/content/aem2021_dubrova/programming-languages/c-,/content/aem2021_dubrova/programming-languages/c--,/content/aem2021_dubrova/programming-languages/javascript,/content/aem2021_dubrova/programming-languages/python]"/>
+        </par>
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <java/>
+    <c-/>
+    <c--/>
+    <javascript/>
+    <python/>
+</jcr:root>

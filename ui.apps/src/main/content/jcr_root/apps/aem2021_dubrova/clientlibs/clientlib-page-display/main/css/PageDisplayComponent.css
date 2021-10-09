@@ -1,0 +1,127 @@
+.componentContent {
+    background-color: #EFEFEF;
+}
+
+.headline {
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Georgia, serif;
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+.bordered-tile {
+	border: 1px solid;
+    width: 300px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.in-tile-text {
+    font-size: 18px;
+    text-align: center;
+}
+
+.childPages {
+    width: 300px;
+	float: left;
+}
+
+.dynamicTile {
+    width: 300px;
+    border: 1px solid;
+    float: left;
+    background-color: azure;
+    word-wrap: break-word;
+}
+
+.staticTile {
+    width: 300px;
+    border: 1px solid;
+    border-radius: 20px;
+    right: 10%;
+    height: 550px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+    background-color: azure;
+}
+
+.staticTile:hover, .staticTile:active {
+    box-shadow:
+    1px 1px #53ea93,
+    2px 2px #53ea93,
+    3px 3px #53ea93,
+    4px 4px #53ea93,
+    5px 5px #53ea93,
+    6px 6px #53ea93,
+    7px 7px #53ea93;
+  -webkit-transform: translateX(-7px);
+  transform: translateX(-7px);
+}
+
+.dynamicComponent {
+	overflow: hidden;
+}
+
+.staticComponent {
+	overflow: hidden;
+}
+
+.childPageLink {
+    background-color: white;
+    color: black;
+    border: 2px solid darkblue;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.childPageLink:hover, .childPageLink:active {
+    background-color: #91DFFA;
+}
+
+.title {
+	background-color: deepskyblue;
+}
+
+.imageBorder {
+    border-radius: 20px;
+}
+
+.showMore {
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    margin-left: 31%;
+    margin-top: 15px;
+	background-color: white;
+    color: black;
+    text-decoration: none;
+    cursor:pointer;
+} 
+
+.showMore:hover, .showMore:active {
+    background-color: #91DFFA;
+}
+
+.size {
+    margin-left: 10px;
+    padding: 1px;
+    display: -webkit-box;
+  	-webkit-line-clamp: 8;
+  	-webkit-box-orient: vertical;  
+  	overflow: hidden;
+}
+
+.pageTitle {
+    text-align: center;
+}
+
+.image {
+    width: 300px;
+    height: 300px;
+}

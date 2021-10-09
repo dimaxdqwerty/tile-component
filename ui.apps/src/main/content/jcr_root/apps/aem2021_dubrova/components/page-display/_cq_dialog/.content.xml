@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Properties"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/foundation/container">
+        <layout
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="granite/ui/components/foundation/layouts/tabs"
+            type="nav"/>
+        <items jcr:primaryType="nt:unstructured">
+            <main
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Main"
+                sling:resourceType="granite/ui/components/foundation/section">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <column
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <radiogroup
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/radiogroup"
+                                class="cq-dialog-tab-showhide"
+                                cq-dialog-tab-showhide-target=".list-option-tab-showhide-target"
+                                fieldLabel="Behavior"
+                                name="./behavior"
+                                required="{Boolean}true"
+                                text="Behavior">
+                                <items jcr:primaryType="nt:unstructured">
+                                    <static
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/radio"
+                                        class="static"
+                                        text="Static"
+                                        value="static"/>
+                                    <dynamic
+                                        jcr:primaryType="nt:unstructured"
+                                        sling:resourceType="granite/ui/components/foundation/form/radio"
+                                        class="dynamic"
+                                        text="Dynamic"
+                                        value="dynamic"/>
+                                </items>
+                            </radiogroup>
+                            <headline
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/textfield"
+                                fieldLabel="Headline"
+                                name="./headline"
+                                required="{Boolean}true"/>
+                            <limit
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/numberfield"
+                                defaultValue="{Long}1"
+                                fieldLabel="Limit"
+                                max="{Long}15"
+                                min="{Long}1"
+                                name="./number"
+                                required="{Boolean}true"/>
+                        </items>
+                    </column>
+                </items>
+            </main>
+            <paths
+                jcr:primaryType="nt:unstructured"
+                jcr:title="Paths"
+                sling:resourceType="granite/ui/components/foundation/section">
+                <layout
+                    jcr:primaryType="nt:unstructured"
+                    sling:resourceType="granite/ui/components/foundation/layouts/fixedcolumns"/>
+                <items jcr:primaryType="nt:unstructured">
+                    <column
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/foundation/container">
+                        <items jcr:primaryType="nt:unstructured">
+                            <path
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                class="dynamicBehavior"
+                                fieldLabel="Pages path"
+                                name="./dynamicPath"
+                                rootPath="/content/aem2021_dubrova"/>
+                            <multifield
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/foundation/form/multifield"
+                                class="staticBehavior">
+                                <field
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/foundation/form/pathbrowser"
+                                    fieldLabel="Page"
+                                    name="./staticPath"
+                                    rootPath="/content/aem2021_dubrova"/>
+                            </multifield>
+                        </items>
+                    </column>
+                </items>
+            </paths>
+        </items>
+    </content>
+</jcr:root>

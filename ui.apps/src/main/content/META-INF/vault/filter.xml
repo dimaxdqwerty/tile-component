@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/aem2021_dubrova"/>
+    <filter root="/content/rep:policy" />
+    <filter root="/home" mode="merge" />
+    <filter root="/home/users" mode="merge" />
+    <filter root="/home/users/system" mode="merge" />
+    <filter root="/home/users/system/service-user" mode="merge" />
+    <filter root="/home/users/system/service-user/zpIfA_AfyfYrCkCi1fF5" mode="merge">
+        <exclude pattern="/home/users/system/service-user/zpIfA_AfyfYrCkCi1fF5/\.tokens"/>
+    </filter>
+</workspaceFilter>

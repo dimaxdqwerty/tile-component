@@ -1,0 +1,8 @@
+<div data-sly-include="/libs/wcm/core/components/init/init.jsp"></div>
+<div class="bordered-tile">
+    <h1 class="title">${properties.jcr:title}</h1>
+    <p class="in-tile-text">${properties.jcr:description}</p>
+</div>
+
+<sly data-sly-use.clientlib="${'/libs/granite/sightly/templates/clientlib.html'}"/>
+<sly data-sly-call="${clientlib.css @ categories='aem2021_dubrova.main'}"/>

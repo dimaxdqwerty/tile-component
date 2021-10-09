@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:conf="/conf/aem2021_dubrova"
+        cq:lastModified="{Date}2021-08-21T10:51:01.054+03:00"
+        cq:lastModifiedBy="admin"
+        cq:template="/apps/aem2021_dubrova/templates/childPage"
+        jcr:description="Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together."
+        jcr:primaryType="cq:PageContent"
+        jcr:title="Python"
+        sling:resourceType="/apps/aem2021_dubrova/components/component-page/childPage"
+        pageTitle="Python">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+</jcr:root>

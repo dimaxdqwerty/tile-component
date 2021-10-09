@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/all/aem2021_dubrova.all.iml" filepath="$PROJECT_DIR$/all/aem2021_dubrova.all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/aem2021_dubrova.core.iml" filepath="$PROJECT_DIR$/core/aem2021_dubrova.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dispatcher/aem2021_dubrova.dispatcher.ams.iml" filepath="$PROJECT_DIR$/dispatcher/aem2021_dubrova.dispatcher.ams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it.launcher/aem2021_dubrova.it.launcher.iml" filepath="$PROJECT_DIR$/it.launcher/aem2021_dubrova.it.launcher.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it.tests/aem2021_dubrova.it.tests.iml" filepath="$PROJECT_DIR$/it.tests/aem2021_dubrova.it.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps/aem2021_dubrova.ui.apps.iml" filepath="$PROJECT_DIR$/ui.apps/aem2021_dubrova.ui.apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps.structure/aem2021_dubrova.ui.apps.structure.iml" filepath="$PROJECT_DIR$/ui.apps.structure/aem2021_dubrova.ui.apps.structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.content/aem2021_dubrova.ui.content.iml" filepath="$PROJECT_DIR$/ui.content/aem2021_dubrova.ui.content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/tile-component.iml" filepath="$PROJECT_DIR$/.idea/tile-component.iml" />
+    </modules>
+  </component>
+</project>

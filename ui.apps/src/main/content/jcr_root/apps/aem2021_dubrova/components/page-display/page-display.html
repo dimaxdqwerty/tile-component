@@ -1,0 +1,35 @@
+<div data-sly-test="${properties.number == null}">Component must be configured.</div>
+<div class="componentContent">
+    <div class="headline" data-sly-test="${properties.headline}">${properties.headline}</div>
+    <div data-sly-use.model="com.aem.dubrova.core.models.PageDisplayModel"></div>
+
+    <div class="staticComponent" data-sly-test="${properties.behavior == 'static'}" data-sly-list.page="${model.pages}">
+        <a href="${page.path}">
+            <div class="staticTile">
+                <img class="image imageBorder" src=${page.image} alt="Image">
+                <h2 class="pageTitle">${page.title}</h2>
+                <p class="size">${page.text}</p>
+            </div>
+        </a>
+    </div>
+    <div class="showMore" id="button" staticPagesLimit="${properties.number}" data-sly-test="${properties.behavior == 'static'}">
+    	<p>Show more</p>
+    </div>
+
+    <div class="dynamicComponent" data-sly-test="${properties.behavior == 'dynamic'}">
+        <a href="${page.path}" data-sly-list.page="${model.pages}">
+            <div class="dynamicTile" data-sly-test="${pageList.first}">
+                <img class="image" src="${page.image}" alt="Image">
+                <h3 class="pageTitle">${page.title}</h3>
+                <p>${page.text}</p>
+            </div>
+        </a>
+        <div class="childPages" data-sly-list.page="${model.pages}">
+            <a href="${page.path}">
+                <div class="childPageLink" data-sly-test="${!pageList.first}">${page.title}</div>
+            </a>
+        </div>
+    </div>
+</div>
+<sly data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html" />
+<sly data-sly-call="${clientlib.js @ categories='aem2021_dubrova.pageUtils'}" />

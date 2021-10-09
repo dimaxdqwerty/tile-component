@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>FileVault Package Properties</comment>
+<entry key="description">ACL Package initially defined by a ACS AEM Commons - ACL Packager configuration.</entry>
+<entry key="packageType">content</entry>
+<entry key="lastWrappedBy">admin</entry>
+<entry key="packageFormatVersion">2</entry>
+<entry key="group">ACLs</entry>
+<entry key="acHandling">Overwrite</entry>
+<entry key="created">2021-08-28T10:48:13.013+03:00</entry>
+<entry key="lastModifiedBy">admin</entry>
+<entry key="buildCount">1</entry>
+<entry key="lastWrapped">2021-08-28T10:48:12.973+03:00</entry>
+<entry key="version">1.0.0</entry>
+<entry key="dependencies"></entry>
+<entry key="createdBy">admin</entry>
+<entry key="name">users</entry>
+<entry key="lastModified">2021-08-28T10:48:12.973+03:00</entry>
+</properties>
